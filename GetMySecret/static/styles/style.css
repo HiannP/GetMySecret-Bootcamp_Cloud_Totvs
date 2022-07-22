@@ -4,6 +4,7 @@ body {
 
 /*----------------------------------------------------------------------------*/
 
+/* Ajustes da logo */
 .logo_totvs {
   width: 150px;
   display: block;
@@ -47,7 +48,39 @@ body {
   text-align: center;
 }
 
+/* Estilo área de envio de messagens */
+.message_area {
+  background-color: #111;
+  border-radius: 10px;
+}
+
+/* Estilo da barra de envio de mensagens */
 #message {
   border-radius: 10px;
   border-style: double;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/* Estilo do campo de login */
+.login_box {
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 5px;
+  border-style: none;
+  width: 400px;
+  padding: 20px;
+  margin: 0px auto;
+  position: relative;
+  top: 6cm;
+}
+
+.login_box input {
+  width: 300px;
+  border-style: ridge;
+  border-radius: 10px;
+}
+
+.login_box h1{
+  font-family: 'Trebuchet MS', sans-serif ;
 }

@@ -1,0 +1,21 @@
+{% extends 'loginpage.html'%}
+{% block title %}
+    Entrar
+{% endblock %}
+{% block header %}
+    <image class="logo_totvs" src="{{url_for('static', filename='images/logo_totvs.png')}}"></image>
+{% endblock %}
+{% block login %}
+    <fieldset class="login_box">
+        <div>
+            <form>
+                <label for="cod"><h1>Código</h1></label>
+                <input type="text" id="cod" name="cod"></input>
+                <label for="pass"><h1>Senha</h1></label>
+                <input type="text" id="pass" name="pass"></input>
+                <br>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </fieldset>
+{% endblock %}
