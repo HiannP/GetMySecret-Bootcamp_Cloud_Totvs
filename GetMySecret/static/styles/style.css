@@ -2,38 +2,26 @@ body {
   background-color: rgb(31, 30, 30);
 }
 
+header {
+  text-align: center;
+}
 /*----------------------------------------------------------------------------*/
 
 /* Ajustes da logo */
 .logo_totvs {
   width: 150px;
-  display: block;
-  margin: 0px auto;
 }
 
-/*----------------------------------------------------------------------------*/
-
-/* Estilo da barra lateral */
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  left: 0;
-  background-color: #111;
+.system_title_area {
+  margin-left: -150px;
 }
 
-/* Links da barra lateral */
-.sidenav a {
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Mudança de cor dos links com hover */
-.sidenav a:hover {
-  background-color: #ddd;
-  color: black;
+.system_title {
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  width: 50px;
+  font-size: 30px;
+  margin-bottom: 0px;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -41,8 +29,6 @@ body {
 /* Estilo da campo de mensagens */
 .content {
   border-style: none;
-  margin-left: 200px;
-  padding-left: 10px;
   border-radius: 10px;
   background-color: #ddd;
   text-align: center;
@@ -54,33 +40,42 @@ body {
   border-radius: 10px;
 }
 
+/* Estilo área de messagens */
+#message_view {
+  color: #ddd;
+  font-size: 20px;
+}
+
 /* Estilo da barra de envio de mensagens */
-#menssagem {
+#message {
   border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  width: 85%;
+  height: 20px;
+  font-size: 15px;
+}
+
+/* Estilo do botão de envio de mensagens */
+#post_message {
+  border-radius: 10px;
+  padding: 3px;
+  border-width: 5px;
+  width: 70px;
   border-style: double;
+  background-color: rgb(3, 92, 3);
+  color: aliceblue;
+  cursor: pointer;
 }
 
-/*----------------------------------------------------------------------------*/
-
-/* Estilo do campo de login */
-.login_box {
-  background-color: #ddd;
-  text-align: center;
+/* Estilo do botão de deletar mensagens */
+#delete_messages {
   border-radius: 5px;
-  border-style: none;
-  width: 400px;
-  padding: 20px;
-  margin: 0px auto;
-  position: relative;
-  top: 6cm;
-}
-
-.login_box input {
-  width: 300px;
-  border-style: ridge;
-  border-radius: 10px;
-}
-
-.login_box h1{
-  font-family: 'Trebuchet MS', sans-serif ;
+  border-width: 5px;
+  border-style: double;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color:rgb(156, 0, 0);
+  color: aliceblue;
+  cursor: pointer;
 }
