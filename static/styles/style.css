@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(31, 30, 30);
+}
+
+header {
+  text-align: center;
+}
+/*----------------------------------------------------------------------------*/
+
+/* Ajustes da logo */
+.logo_totvs {
+  width: 150px;
+}
+
+.system_title_area {
+  margin-left: -150px;
+}
+
+.system_title {
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  width: 50px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/* Estilo da campo de mensagens */
+.content {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+/* Estilo área de envio de messagens */
+.message_area {
+  background-color: #111;
+  border-radius: 10px;
+}
+
+/* Estilo área de messagens */
+#message_view {
+  color: #ddd;
+  font-size: 20px;
+}
+
+/* Estilo da barra de envio de mensagens */
+#message {
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  width: 85%;
+  height: 20px;
+  font-size: 15px;
+}
+
+/* Estilo do botão de envio de mensagens */
+#post_message {
+  border-radius: 10px;
+  padding: 3px;
+  border-width: 5px;
+  width: 70px;
+  border-style: double;
+  background-color: rgb(3, 92, 3);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+/* Estilo do botão de deletar mensagens */
+#delete_messages {
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: double;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color:rgb(156, 0, 0);
+  color: aliceblue;
+  cursor: pointer;
+}
