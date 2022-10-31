@@ -7,4 +7,4 @@ Arquitetura AWS Cloud - GetMySecret:
 Interface GetMySecret:
 ![Captura de Tela (167)](https://user-images.githubusercontent.com/76259118/182916028-ea6c7e01-e3bb-4fc9-b462-8d39743e0aca.png)
 
-Link da Aplicação: https://get-my-secret.s3.us-east-2.amazonaws.com/index.html
+Link da Aplicação: https://get-my-secret.s3.us-east-2.amazonaws.com/index.html (Inativo)
