@@ -1,4 +1,4 @@
-# GetMySecret - Desafio do Bootcamp Cloud da Totvs
+# GetMySecret - Desafio do Bootcamp Cloud da Totvs (!!! Programa Desativado !!!)
 Desafio Totvs - Sistema, com integração em nuvem, baseado no envio de dados sensíveis de forma segura e anônima entre clientes e atendentes de suporte.
 
 Arquitetura AWS Cloud - GetMySecret:
